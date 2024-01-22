@@ -1,0 +1,74 @@
+{
+    "navigation": [
+        {
+            "nav_title": "Recent Work",
+            "nav_url": "/"
+        },
+        {
+            "nav_title": "Past Work",
+            "nav_url": "/past/"
+        },
+        {
+            "nav_title": "Summary & Contact",
+            "nav_url": "/past/index.html"
+        },
+        {
+            "nav_title": "Resume",
+            "nav_url": "/resume/"
+        }
+    ],
+    "header": [
+        {
+            "text_h1": "David Loop",
+            "text_h2": "UI/UX Frontend Developer & Designer"
+        }
+    ],
+    "projects": [
+        {
+            "present": [
+                {
+                    "abswavesight": [
+                        {
+                            "project_title": "ABS Wavesight",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023",
+                            "project_url": "http://www.abswavesight.com"
+                        }
+                    ],
+                    "kbr": [
+                        {
+                            "project_title": "KBR",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "cpchem": [
+                        {
+                            "project_title": "Chevron Phillips Chemical",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "cgg": [
+                        {
+                            "project_title": "CGG",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ]
+                }
+            ],
+            "past": [
+                {
+                    "hptouchsmartcommunity": [
+                        {
+                            "project_title": "HP TouchSmart Community",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2010"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

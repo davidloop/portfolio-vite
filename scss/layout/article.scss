@@ -1,0 +1,18 @@
+article {
+    height: 900px;
+    margin: 310px 0 0 0;
+    padding: 40px 0 0 0;
+    background: var(--color-default);
+    display: grid;
+    grid-template-columns: 1fr 280px 20px 670px 1fr;
+    position: relative;
+    z-index: 2;
+
+    section[data-section=proj-nav] {
+        grid-column: 2;
+    }
+
+    section[data-section=proj-display] {
+        grid-column: 4;
+    }
+}
