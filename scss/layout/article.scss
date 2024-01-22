@@ -1,5 +1,5 @@
 article {
-    height: 900px;
+    height: 1000px;
     margin: 310px 0 0 0;
     padding: 40px 0 0 0;
     background: var(--color-default);
@@ -10,6 +10,11 @@ article {
 
     section[data-section=proj-nav] {
         grid-column: 2;
+
+        aside {
+            position: sticky;
+            top: 80px;
+        }
     }
 
     section[data-section=proj-display] {
