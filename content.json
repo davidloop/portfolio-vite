@@ -55,6 +55,20 @@
                             "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
                             "project_year": "2023"
                         }
+                    ],
+                    "loomis": [
+                        {
+                            "project_title": "Loomis",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "american_plant_food": [
+                        {
+                            "project_title": "American Plant Food",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
                     ]
                 }
             ],
@@ -69,6 +83,12 @@
                     ]
                 }
             ]
+        }
+    ],
+    "projects_headings": [
+        {
+            "projects_heading_recent": "Recent Work",
+            "projects_heading_past": "Past Work"
         }
     ]
 }

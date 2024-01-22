@@ -8,7 +8,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 100;
-    transition: height 0.15s ease-out;
+    transition: height 0.3s ease-out;
 
     *:not(span) {
         height: inherit;
@@ -51,6 +51,11 @@ nav {
                     transition: transform 0.2s ease-out;
                 }
 
+                &.active::before {
+                    background: var(--color-linear-active);
+                }
+
+                &.active::before,
                 &:hover::before,
                 &:focus-visible::before {
                     transform: scaleX(1);
