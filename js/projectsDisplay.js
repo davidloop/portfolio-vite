@@ -2,7 +2,6 @@ import json from '/content.json';
 let projects = json.projects;
 
 export function projectsDisplay(element) {
-
     let trigger = $("aside ul li a");
     $(trigger).on('click', (e) => {
         e.preventDefault();
@@ -45,7 +44,6 @@ export function projectsDisplay(element) {
     $(window).on('load', () => {
         let firstTab = projects[0].present[0];
         let firstTabID = Object.keys(firstTab)[0];
-        console.log(Object.keys(firstTab)[0]);
         $(trigger).filter(`[href="#${firstTabID}"]`).trigger('click');
     });
 }
