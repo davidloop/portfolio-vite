@@ -46,6 +46,17 @@ footer  {
 
                 &:last-child {
                     justify-self: flex-end;
+                    
+                    a {
+                        opacity: 0;
+                        pointer-events: none;
+                        transition: opacity 0.15s ease-out;
+
+                        &.visible {
+                            opacity: 1;
+                            pointer-events: initial;
+                        }
+                    }
                 }
             }
         }
