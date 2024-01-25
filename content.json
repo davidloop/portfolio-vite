@@ -49,13 +49,6 @@
                             "project_year": "2023"
                         }
                     ],
-                    "cgg": [
-                        {
-                            "project_title": "CGG",
-                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
-                            "project_year": "2023"
-                        }
-                    ],
                     "loomis": [
                         {
                             "project_title": "Loomis",
@@ -63,9 +56,51 @@
                             "project_year": "2023"
                         }
                     ],
+                    "rhl": [
+                        {
+                            "project_title": "Red Lion",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
                     "american_plant_food": [
                         {
                             "project_title": "American Plant Food",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "adcetera_2015": [
+                        {
+                            "project_title": "Adcetera 2015",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "metal_depots": [
+                        {
+                            "project_title": "Metal Depots",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "mbci": [
+                        {
+                            "project_title": "MBCI",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "tmobile": [
+                        {
+                            "project_title": "T-Mobile",
+                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
+                            "project_year": "2023"
+                        }
+                    ],
+                    "microsoft": [
+                        {
+                            "project_title": "Xbox Windows Experience",
                             "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
                             "project_year": "2023"
                         }

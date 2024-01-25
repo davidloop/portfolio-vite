@@ -14,6 +14,7 @@ document.querySelector('main').innerHTML = `
       <aside></aside>
     </section>
     <section data-section="proj-display"></section>
+    <section data-section="summary-contact"></section>
   </article>
 `
 scrollHeader($("body"));

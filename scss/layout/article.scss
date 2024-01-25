@@ -1,5 +1,4 @@
 article {
-    height: 1000px;
     margin: 310px 0 0 0;
     padding: 40px 0 0 0;
     background: var(--color-default);
@@ -10,6 +9,8 @@ article {
 
     section[data-section=proj-nav] {
         grid-column: 2;
+        height: 1000px;
+        padding: 0 0 80px 0;
 
         aside {
             position: sticky;
@@ -19,5 +20,12 @@ article {
 
     section[data-section=proj-display] {
         grid-column: 4;
+        padding: 0 0 80px 0;
+    }
+
+    section[data-section=summary-contact] {
+        grid-column: 1 / span 5;
+        height: 500px;
+        background: var(--color-summary);
     }
 }
