@@ -1,4 +1,4 @@
-import './scss/style.scss';
+import './style.scss';
 import $ from 'jquery';
 import { scrollHeader } from './js/scrollHeader.js';
 import { navigation } from './js/navigation.js';
@@ -23,5 +23,4 @@ projectsDisplay($("section[data-section='proj-display']"));
 navigation($("nav"));
 header($("header"));
 backToTop($(".back-to-top"));
-
 document.querySelector('.year').innerHTML = new Date().getFullYear();

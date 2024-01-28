@@ -47,7 +47,7 @@ export function projectsDisplay(element) {
                             } else {
                                 text.push('<p>' + item.project_year + '</p>');
                             }
-                            $(targetSection).html('<div class="proj-display--meta">' + text.join("") + '</div>');
+                            $(targetSection).html('<div class="proj-display--meta">' + text.join("") + '</div><div class="proj-display--images">' + item.images + '</div>');
                         }
                     });
                 });
@@ -57,11 +57,13 @@ export function projectsDisplay(element) {
 
     const runFirstTab = (firstTab) => {
         let firstTabID = Object.keys(firstTab)[0];
+        let firtTabIDImages = firstTab[firstTabID][0].images;
+
         $(trigger).filter(`[href="#${firstTabID}"]`).addClass('active');
         if (firstTab[firstTabID][0].project_url) {
-            $(targetSection).html('<div class="proj-display--meta"><h4>' + firstTab[firstTabID][0].project_title + '</h4><p>' + firstTab[firstTabID][0].project_skills + '</p><p>' + firstTab[firstTabID][0].project_year + '<a href=' + firstTab[firstTabID][0].project_url + ' target="_blank">View project</a></p></div>');
+            $(targetSection).html('<div class="proj-display--meta"><h4>' + firstTab[firstTabID][0].project_title + '</h4><p>' + firstTab[firstTabID][0].project_skills + '</p><p>' + firstTab[firstTabID][0].project_year + '<a href=' + firstTab[firstTabID][0].project_url + ' target="_blank">View project</a></p></div><div class="proj-display--images">' + firtTabIDImages + '</div>');
         } else {
-            $(targetSection).html('<div class="proj-display--meta"><h4>' + firstTab[firstTabID][0].project_title + '</h4><p>' + firstTab[firstTabID][0].project_skills + '</p><p>' + firstTab[firstTabID][0].project_year + '</p></div>');
+            $(targetSection).html('<div class="proj-display--meta"><h4>' + firstTab[firstTabID][0].project_title + '</h4><p>' + firstTab[firstTabID][0].project_skills + '</p><p>' + firstTab[firstTabID][0].project_year + '</p></div><div class="proj-display--images">' + firtTabIDImages + '</div>');
         }
     }
 

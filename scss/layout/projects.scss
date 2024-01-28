@@ -3,7 +3,7 @@
     h4 {
         margin-bottom: 8px;
         font-family: var(--font-family-heading);
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 300;
     }
 
@@ -30,4 +30,9 @@
             text-decoration: none;
         }
     }
+}
+
+.proj-display--images img {
+    width: 100%;
+    margin-top: 30px;
 }
