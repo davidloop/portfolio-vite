@@ -12,8 +12,10 @@
 
         a {
             margin-left: 21px;
+            color: var(--color-text);
             display: inline-block;
             position: relative;
+            cursor: pointer;
 
             &::before {
                 content: "";

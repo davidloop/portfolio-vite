@@ -39,36 +39,44 @@
                     "kbr": [
                         {
                             "project_title": "KBR",
-                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
-                            "project_year": "2023"
+                            "project_skills": "Drupal, Twig, React, SCSS, JavaScript, Jquery, Webpack, Multi Langauge",
+                            "project_year": "2023",
+                            "project_url": "http://www.kbr.com",
+                            "images": "<img src='/kbr-01.jpg' alt='KBR' /><img src='/kbr-02.jpg' alt='KBR' /><img src='/kbr-03.jpg' alt='KBR' /><img src='/kbr-04.jpg' alt='KBR' /><img src='/kbr-05.png' alt='KBR' />"
                         }
                     ],
                     "cpchem": [
                         {
                             "project_title": "Chevron Phillips Chemical",
-                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
-                            "project_year": "2023"
+                            "project_skills": "Drupal, Twig, SCSS, JavaScript, Jquery, Webpack",
+                            "project_year": "2020",
+                            "project_url": "http://www.cpchem.com",
+                            "images": "<img src='/cpchem-01.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-05.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-02.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-03.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-04.png' alt='Chevron Phillips Chemical' />"
                         }
                     ],
                     "loomis": [
                         {
                             "project_title": "Loomis",
-                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
-                            "project_year": "2023"
+                            "project_skills": "Drupal, Twig, Bootstrap, SCSS, JavaScript, Jquery, Webpack",
+                            "project_year": "2020",
+                            "project_url": "http://www.loomis.us",
+                            "images": "<img src='/loomis-01.png' alt='Loomis' /><img src='/loomis-02.png' alt='Loomis' /><img src='/loomis-03.png' alt='Loomis' /><img src='/loomis-04.png' alt='Loomis' /><img src='/loomis-05.png' alt='Loomis' />"
                         }
                     ],
                     "rhl": [
                         {
                             "project_title": "Red Lion",
-                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
-                            "project_year": "2023"
+                            "project_skills": "Drupal, Twig, Handlebars, SCSS, JavaScript, Jquery, Webpack",
+                            "project_year": "2018"
                         }
                     ],
                     "american_plant_food": [
                         {
                             "project_title": "American Plant Food",
-                            "project_skills": "HTML, CSS, JavaScript, jQuery, PHP, MySQL, WordPress",
-                            "project_year": "2023"
+                            "project_skills": "Design, WordPress, PHP, HTML, Bootstrap, SCSS, Jquery, Gulp",
+                            "project_year": "2018",
+                            "project_url": "https://americanplantfood.com",
+                            "images": "<img src='/apf-01.png' alt='American Plant Food' /><img src='/apf-02.png' alt='American Plant Food' /><img src='/apf-03.png' alt='American Plant Food' /><img src='/apf-04.png' alt='American Plant Food' /><img src='/apf-05.png' alt='American Plant Food' />"
                         }
                     ],
                     "adcetera_2015": [
@@ -82,7 +90,7 @@
                     "mbci": [
                         {
                             "project_title": "MBCI",
-                            "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, Jquery, JavaScript",
+                            "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, JavaScript, Jquery",
                             "project_year": "2014",
                             "images":"<img src='/mbci-01.png' alt='MBCI' /><img src='/mbci-02.png' alt='MBCI' /><img src='/mbci-03.png' alt='MBCI' /><img src='/mbci-04.png' alt='MBCI' /><img src='/mbci-05.png' alt='MBCI' /><img src='/mbci-06.png' alt='MBCI' /><img src='/mbci-07.png' alt='MBCI' />"
                         }
@@ -90,7 +98,7 @@
                     "metal_depots": [
                         {
                             "project_title": "Metal Depots",
-                            "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, Jquery, JavaScript",
+                            "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, JavaScript, Jquery",
                             "project_year": "2014",
                             "images": "<img src='/metaldepots-01.png' alt='Metal Depots' /><img src='/metaldepots-02.png' alt='Metal Depots' /><img src='/metaldepots-03.png' alt='Metal Depots' /><img src='/metaldepots-04.png' alt='Metal Depots' /><img src='/metaldepots-05.png' alt='Metal Depots' /><img src='/metaldepots-06.png' alt='Metal Depots' /><img src='/metaldepots-07.png' alt='Metal Depots' />"
                         }
@@ -98,7 +106,7 @@
                     "tmobile": [
                         {
                             "project_title": "T-Mobile",
-                            "project_skills": "Concept, Design, Prototyping, HTML, SCSS, Jquery, JavaScript",
+                            "project_skills": "Concept, Design, Prototyping, HTML, SCSS, JavaScript, Jquery",
                             "project_year": "2013",
                             "images": "<img src='/tmo-01.png' alt='T-Mobile' /><img src='/tmo-02.png' alt='T-Mobile' /><img src='/tmo-03.png' alt='T-Mobile' /><img src='/tmo-04.png' alt='T-Mobile' /><img src='/tmo-05.png' alt='T-Mobile' />"
                         }
