@@ -67,7 +67,8 @@
                         {
                             "project_title": "Red Lion",
                             "project_skills": "Drupal, Twig, Handlebars, SCSS, JavaScript, Jquery, Webpack",
-                            "project_year": "2018"
+                            "project_year": "2018",
+                            "images": "<img src='/rlh-01.png' alt='Red Lion' />"
                         }
                     ],
                     "american_plant_food": [
