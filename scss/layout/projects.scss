@@ -35,7 +35,23 @@
     }
 }
 
-.proj-display--images img {
-    width: 100%;
-    margin-top: 30px;
+.proj-display--images {
+    position: relative;
+
+    img {
+        width: 100%;
+        margin-top: 30px;
+        opacity: 0;
+    
+        &.loader {
+            height: 30px;
+            width: auto;
+            margin: 0;
+            opacity: 1;
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            transform: translateY(-50%);
+        }
+    }
 }

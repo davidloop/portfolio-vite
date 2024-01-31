@@ -53,6 +53,14 @@ export function projectsDisplay(element) {
                 });
             });
         });
+
+        $(".proj-display--images img.loader").delay(1000).animate({
+            opacity: '0'
+        }, 300);
+
+        $(".proj-display--images img:not(.loader)").delay(1000).animate({
+            opacity: '1'
+        }, 300);
     });
 
     const runFirstTab = (firstTab) => {
@@ -65,6 +73,14 @@ export function projectsDisplay(element) {
         } else {
             $(targetSection).html('<div class="proj-display--meta"><h4>' + firstTab[firstTabID][0].project_title + '</h4><p>' + firstTab[firstTabID][0].project_skills + '</p><p>' + firstTab[firstTabID][0].project_year + '</p></div><div class="proj-display--images">' + firtTabIDImages + '</div>');
         }
+
+        $(".proj-display--images img.loader").delay(1000).animate({
+            opacity: '0'
+        }, 300);
+
+        $(".proj-display--images img:not(.loader)").delay(1000).animate({
+            opacity: '1'
+        }, 300);
     }
 
     $(window).on('load', () => {

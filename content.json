@@ -33,7 +33,7 @@
                             "project_skills": "Drupal, Acquia Site Studio, Twig, SCSS, Jquery, Webpack, Multi Langauge",
                             "project_year": "2023",
                             "project_url": "http://www.abswavesight.com",
-                            "images": "<img src='/abswavesight-01.jpg' alt='ABS Wavesight' /><img src='/abswavesight-02.jpg' alt='ABS Wavesight' /><img src='/abswavesight-03.jpg' alt='ABS Wavesight' /><img src='/abswavesight-04.jpg' alt='ABS Wavesight' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/abswavesight-01.jpg' alt='ABS Wavesight' /><img src='/abswavesight-02.jpg' alt='ABS Wavesight' /><img src='/abswavesight-03.jpg' alt='ABS Wavesight' /><img src='/abswavesight-04.jpg' alt='ABS Wavesight' />"
                         }
                     ],
                     "kbr": [
@@ -42,7 +42,7 @@
                             "project_skills": "Drupal, Twig, React, SCSS, JavaScript, Jquery, Webpack, Multi Langauge",
                             "project_year": "2023",
                             "project_url": "http://www.kbr.com",
-                            "images": "<img src='/kbr-01.jpg' alt='KBR' /><img src='/kbr-02.jpg' alt='KBR' /><img src='/kbr-03.jpg' alt='KBR' /><img src='/kbr-04.jpg' alt='KBR' /><img src='/kbr-05.png' alt='KBR' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/kbr-01.jpg' alt='KBR' /><img src='/kbr-02.jpg' alt='KBR' /><img src='/kbr-03.jpg' alt='KBR' /><img src='/kbr-04.jpg' alt='KBR' /><img src='/kbr-05.png' alt='KBR' />"
                         }
                     ],
                     "cpchem": [
@@ -51,7 +51,7 @@
                             "project_skills": "Drupal, Twig, SCSS, JavaScript, Jquery, Webpack",
                             "project_year": "2020",
                             "project_url": "http://www.cpchem.com",
-                            "images": "<img src='/cpchem-01.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-05.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-02.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-03.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-04.png' alt='Chevron Phillips Chemical' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/cpchem-01.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-05.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-02.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-03.png' alt='Chevron Phillips Chemical' /><img src='/cpchem-04.png' alt='Chevron Phillips Chemical' />"
                         }
                     ],
                     "loomis": [
@@ -60,7 +60,7 @@
                             "project_skills": "Drupal, Twig, Bootstrap, SCSS, JavaScript, Jquery, Webpack",
                             "project_year": "2020",
                             "project_url": "http://www.loomis.us",
-                            "images": "<img src='/loomis-01.png' alt='Loomis' /><img src='/loomis-02.png' alt='Loomis' /><img src='/loomis-03.png' alt='Loomis' /><img src='/loomis-04.png' alt='Loomis' /><img src='/loomis-05.png' alt='Loomis' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/loomis-01.png' alt='Loomis' /><img src='/loomis-02.png' alt='Loomis' /><img src='/loomis-03.png' alt='Loomis' /><img src='/loomis-04.png' alt='Loomis' /><img src='/loomis-05.png' alt='Loomis' />"
                         }
                     ],
                     "rhl": [
@@ -68,7 +68,7 @@
                             "project_title": "Red Lion",
                             "project_skills": "Drupal, Twig, Handlebars, SCSS, JavaScript, Jquery, Webpack",
                             "project_year": "2018",
-                            "images": "<img src='/rlh-01.png' alt='Red Lion' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/rlh-01.png' alt='Red Lion' />"
                         }
                     ],
                     "american_plant_food": [
@@ -77,7 +77,7 @@
                             "project_skills": "Design, WordPress, PHP, HTML, Bootstrap, SCSS, Jquery, Gulp",
                             "project_year": "2018",
                             "project_url": "https://americanplantfood.com",
-                            "images": "<img src='/apf-01.png' alt='American Plant Food' /><img src='/apf-02.png' alt='American Plant Food' /><img src='/apf-03.png' alt='American Plant Food' /><img src='/apf-04.png' alt='American Plant Food' /><img src='/apf-05.png' alt='American Plant Food' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/apf-01.png' alt='American Plant Food' /><img src='/apf-02.png' alt='American Plant Food' /><img src='/apf-03.png' alt='American Plant Food' /><img src='/apf-04.png' alt='American Plant Food' /><img src='/apf-05.png' alt='American Plant Food' />"
                         }
                     ],
                     "adcetera_2015": [
@@ -85,7 +85,7 @@
                             "project_title": "Adcetera 2015",
                             "project_skills": "Design, WordPress, PHP, HTML, Bootstrap, LESS, Jquery",
                             "project_year": "2015",
-                            "images":"<img src='/adc2015-01.png' alt='Adcetera 2015' /><img src='/adc2015-02.png' alt='Adcetera 2015' /><img src='/adc2015-03.png' alt='Adcetera 2015' /><img src='/adc2015-04.png' alt='Adcetera 2015' /><img src='/adc2015-05.png' alt='Adcetera 2015' />"
+                            "images":"<img src='/89.gif' alt='Loading...' class='loader' /><img src='/adc2015-01.png' alt='Adcetera 2015' /><img src='/adc2015-02.png' alt='Adcetera 2015' /><img src='/adc2015-03.png' alt='Adcetera 2015' /><img src='/adc2015-04.png' alt='Adcetera 2015' /><img src='/adc2015-05.png' alt='Adcetera 2015' />"
                         }
                     ],
                     "mbci": [
@@ -93,7 +93,7 @@
                             "project_title": "MBCI",
                             "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, JavaScript, Jquery",
                             "project_year": "2014",
-                            "images":"<img src='/mbci-01.png' alt='MBCI' /><img src='/mbci-02.png' alt='MBCI' /><img src='/mbci-03.png' alt='MBCI' /><img src='/mbci-04.png' alt='MBCI' /><img src='/mbci-05.png' alt='MBCI' /><img src='/mbci-06.png' alt='MBCI' /><img src='/mbci-07.png' alt='MBCI' />"
+                            "images":"<img src='/89.gif' alt='Loading...' class='loader' /><img src='/mbci-01.png' alt='MBCI' /><img src='/mbci-02.png' alt='MBCI' /><img src='/mbci-03.png' alt='MBCI' /><img src='/mbci-04.png' alt='MBCI' /><img src='/mbci-05.png' alt='MBCI' /><img src='/mbci-06.png' alt='MBCI' /><img src='/mbci-07.png' alt='MBCI' />"
                         }
                     ],
                     "metal_depots": [
@@ -101,7 +101,7 @@
                             "project_title": "Metal Depots",
                             "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, JavaScript, Jquery",
                             "project_year": "2014",
-                            "images": "<img src='/metaldepots-01.png' alt='Metal Depots' /><img src='/metaldepots-02.png' alt='Metal Depots' /><img src='/metaldepots-03.png' alt='Metal Depots' /><img src='/metaldepots-04.png' alt='Metal Depots' /><img src='/metaldepots-05.png' alt='Metal Depots' /><img src='/metaldepots-06.png' alt='Metal Depots' /><img src='/metaldepots-07.png' alt='Metal Depots' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/metaldepots-01.png' alt='Metal Depots' /><img src='/metaldepots-02.png' alt='Metal Depots' /><img src='/metaldepots-03.png' alt='Metal Depots' /><img src='/metaldepots-04.png' alt='Metal Depots' /><img src='/metaldepots-05.png' alt='Metal Depots' /><img src='/metaldepots-06.png' alt='Metal Depots' /><img src='/metaldepots-07.png' alt='Metal Depots' />"
                         }
                     ],
                     "tmobile": [
@@ -109,7 +109,7 @@
                             "project_title": "T-Mobile",
                             "project_skills": "Concept, Design, Prototyping, HTML, SCSS, JavaScript, Jquery",
                             "project_year": "2013",
-                            "images": "<img src='/tmo-01.png' alt='T-Mobile' /><img src='/tmo-02.png' alt='T-Mobile' /><img src='/tmo-03.png' alt='T-Mobile' /><img src='/tmo-04.png' alt='T-Mobile' /><img src='/tmo-05.png' alt='T-Mobile' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/tmo-01.png' alt='T-Mobile' /><img src='/tmo-02.png' alt='T-Mobile' /><img src='/tmo-03.png' alt='T-Mobile' /><img src='/tmo-04.png' alt='T-Mobile' /><img src='/tmo-05.png' alt='T-Mobile' />"
                         }
                     ],
                     "microsoft": [
@@ -117,7 +117,7 @@
                             "project_title": "Xbox Windows Experience",
                             "project_skills": "HTML, YAML, LESS, JavaScript",
                             "project_year": "2012",
-                            "images": "<img src='/xbox-01.png' alt='Xbox Windows Experience' /><img src='/xbox-02.png' alt='Xbox Windows Experience' /><img src='/xbox-03.png' alt='Xbox Windows Experience' /><img src='/xbox-04.png' alt='Xbox Windows Experience' /><img src='/xbox-05.png' alt='Xbox Windows Experience' /><img src='/xbox-06.png' alt='Xbox Windows Experience' /><img src='/xbox-07.png' alt='Xbox Windows Experience' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/xbox-01.png' alt='Xbox Windows Experience' /><img src='/xbox-02.png' alt='Xbox Windows Experience' /><img src='/xbox-03.png' alt='Xbox Windows Experience' /><img src='/xbox-04.png' alt='Xbox Windows Experience' /><img src='/xbox-05.png' alt='Xbox Windows Experience' /><img src='/xbox-06.png' alt='Xbox Windows Experience' /><img src='/xbox-07.png' alt='Xbox Windows Experience' />"
                         }
                     ],
                     "memorial": [
@@ -125,7 +125,7 @@
                             "project_title": "Memorial Hermann Hospital",
                             "project_skills": "Concept, Wireframing, Design, HTML, CSS, Jquery",
                             "project_year": "2012",
-                            "images": "<img src='/mem-01.png' alt='Memorial Hermann Hospital' /><img src='/mem-02.png' alt='Memorial Hermann Hospital' /><img src='/mem-03.png' alt='Memorial Hermann Hospital' /><img src='/mem-04.png' alt='Memorial Hermann Hospital' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/mem-01.png' alt='Memorial Hermann Hospital' /><img src='/mem-02.png' alt='Memorial Hermann Hospital' /><img src='/mem-03.png' alt='Memorial Hermann Hospital' /><img src='/mem-04.png' alt='Memorial Hermann Hospital' />"
                         }
                     ]
                 }
@@ -137,7 +137,7 @@
                             "project_title": "Valerus",
                             "project_skills": "Concept, Wireframing, Design, WordPress, PHP, HTML, CSS, Jquery",
                             "project_year": "2012",
-                            "images": "<img src='/val-01.png' alt='Valerus' /><img src='/val-02.png' alt='Valerus' /><img src='/val-03.png' alt='Valerus' /><img src='/val-04.png' alt='Valerus' /><img src='/val-05.png' alt='Valerus' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/val-01.png' alt='Valerus' /><img src='/val-02.png' alt='Valerus' /><img src='/val-03.png' alt='Valerus' /><img src='/val-04.png' alt='Valerus' /><img src='/val-05.png' alt='Valerus' />"
                         }
                     ],
                     "alert": [
@@ -145,7 +145,7 @@
                             "project_title": "Alert Logic",
                             "project_skills": "Concept, Wireframing, Design, WordPress, PHP, HTML, CSS, Jquery",
                             "project_year": "2011",
-                            "images": "<img src='/alertlogic-01.png' alt='Alert Logic' /><img src='/alertlogic-02.png' alt='Alert Logic' /><img src='/alertlogic-03.png' alt='Alert Logic' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/alertlogic-01.png' alt='Alert Logic' /><img src='/alertlogic-02.png' alt='Alert Logic' /><img src='/alertlogic-03.png' alt='Alert Logic' />"
                         }
                     ],
                     "hptouchsmartcommunity": [
@@ -153,7 +153,7 @@
                             "project_title": "HP TouchSmart Community",
                             "project_skills": "Concept, Wireframing, Design",
                             "project_year": "2010",
-                            "images": "<img src='/hpecosystem-01.png' alt='HP TouchSmart Community' /><img src='/hpecosystem-02.png' alt='HP TouchSmart Community' /><img src='/hpecosystem-03.png' alt='HP TouchSmart Community' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/hpecosystem-01.png' alt='HP TouchSmart Community' /><img src='/hpecosystem-02.png' alt='HP TouchSmart Community' /><img src='/hpecosystem-03.png' alt='HP TouchSmart Community' />"
                         }
                     ],
                     "tattu": [
@@ -161,7 +161,7 @@
                             "project_title": "Tattu Denim",
                             "project_skills": "Concept, Wireframing, Design",
                             "project_year": "2010",
-                            "images": "<img src='/tattu-01.png' alt='Tattu Denim' /><img src='/tattu-02.png' alt='Tattu Denim' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/tattu-01.png' alt='Tattu Denim' /><img src='/tattu-02.png' alt='Tattu Denim' />"
                         }
                     ],
                     "dog": [
@@ -169,7 +169,7 @@
                             "project_title": "Dog The Bounty Hunter",
                             "project_skills": "Concept, Wireframing, Design",
                             "project_year": "2010",
-                            "images": "<img src='/dog-01.png' alt='Dog The Bounty Hunter' /><img src='/dog-02.png' alt='Dog The Bounty Hunter' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/dog-01.png' alt='Dog The Bounty Hunter' /><img src='/dog-02.png' alt='Dog The Bounty Hunter' />"
                         }
                     ],
                     "jiffy": [
@@ -177,7 +177,7 @@
                             "project_title": "Jiffy Lube Touch Screens",
                             "project_skills": "Concept, Wireframing, Design",
                             "project_year": "2010",
-                            "images": "<img src='/jiffy-01.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/jiffy-02.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/jiffy-03.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/jiffy-04.png' alt='Jiffy Lube Consumer Touch Screens' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/jiffy-01.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/jiffy-02.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/jiffy-03.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/jiffy-04.png' alt='Jiffy Lube Consumer Touch Screens' />"
                         }
                     ],
                     "joes": [
@@ -185,7 +185,7 @@
                             "project_title": "Joe's Crabshack",
                             "project_skills": "Concept, Wireframing, Design, PHP, HTML, CSS",
                             "project_year": "2009",
-                            "images": "<img src='/joes-01.png' alt='Joe's Crabshack' /><img src='/joes-02.png' alt='Joe's Crabshack' /><img src='/joes-03.png' alt='Joe's Crabshack' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/joes-01.png' alt='Joe's Crabshack' /><img src='/joes-02.png' alt='Joe's Crabshack' /><img src='/joes-03.png' alt='Joe's Crabshack' />"
                         }
                     ],
                     "mahindra": [
@@ -193,7 +193,7 @@
                             "project_title": "Mahindra Racing",
                             "project_skills": "Concept, Wireframing, Design, PHP, HTML, CSS, Jquery, Flash",
                             "project_year": "2009",
-                            "images": "<img src='/mah-01.png' alt='Mahindra Racing' /><img src='/mah-02.png' alt='Mahindra Racing' /><img src='/mah-03.png' alt='Mahindra Racing' /><img src='/mah-04.png' alt='Mahindra Racing' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/mah-01.png' alt='Mahindra Racing' /><img src='/mah-02.png' alt='Mahindra Racing' /><img src='/mah-03.png' alt='Mahindra Racing' /><img src='/mah-04.png' alt='Mahindra Racing' />"
                         }
                     ],
                     "scion": [
@@ -201,7 +201,7 @@
                             "project_title": "Scion Events",
                             "project_skills": "Concept, Design, HTML, CSS",
                             "project_year": "2008",
-                            "images": "<img src='/scion-01.png' alt='Scion Events' /><img src='/scion-02.png' alt='Scion Events' /><img src='/scion-03.png' alt='Scion Events' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/scion-01.png' alt='Scion Events' /><img src='/scion-02.png' alt='Scion Events' /><img src='/scion-03.png' alt='Scion Events' />"
                         }
                     ],
                     "misterart": [
@@ -209,7 +209,7 @@
                             "project_title": "MisterArt (Texas Art Supply)",
                             "project_skills": "Graphic &amp; Print Design, Concept, Wireframing, HTML, CSS, JavaScript",
                             "project_year": "2007",
-                            "images": "<img src='/art-01.png' alt='MisterArt (Texas Art Supply)' /><img src='/art-02.png' alt='MisterArt (Texas Art Supply)' /><img src='/art-03.png' alt='MisterArt (Texas Art Supply)' /><img src='/art-04.png' alt='MisterArt (Texas Art Supply)' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/art-01.png' alt='MisterArt (Texas Art Supply)' /><img src='/art-02.png' alt='MisterArt (Texas Art Supply)' /><img src='/art-03.png' alt='MisterArt (Texas Art Supply)' /><img src='/art-04.png' alt='MisterArt (Texas Art Supply)' />"
                         }
                     ],
                     "driskill": [
@@ -217,7 +217,7 @@
                             "project_title": "The Driskill Hotel",
                             "project_skills": "Concept, Design, HTML, CSS",
                             "project_year": "2006",
-                            "images": "<img src='/driskill-01.png' alt='The Driskill Hotel' /><img src='/driskill-02.png' alt='The Driskill Hotel' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/driskill-01.png' alt='The Driskill Hotel' /><img src='/driskill-02.png' alt='The Driskill Hotel' />"
                         }
                     ],
                     "print": [
@@ -225,7 +225,7 @@
                             "project_title": "Various Print",
                             "project_skills": "Catalogs, brochures, postcards, flyers, business cards, etc.",
                             "project_year": "2004 - Present",
-                            "images": "<img src='/print-01.png' alt='Various Print' /><img src='/print-02.png' alt='Various Print' /><img src='/print-03.png' alt='Various Print' /><img src='/print-04.png' alt='Various Print' />"
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/print-01.png' alt='Various Print' /><img src='/print-02.png' alt='Various Print' /><img src='/print-03.png' alt='Various Print' /><img src='/print-04.png' alt='Various Print' />"
                         }
                     ]
                 }
