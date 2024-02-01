@@ -6,6 +6,7 @@ import { projectsNav } from './js/projectsNav.js';
 import { header } from './js/header.js';
 import { backToTop } from './js/backToTop.js';
 import { projectsDisplay } from './js/projectsDisplay.js';
+import { summary } from './js/summary.js';
 
 document.querySelector('main').innerHTML = `
   <header></header>
@@ -23,4 +24,5 @@ projectsDisplay($("section[data-section='proj-display']"));
 navigation($("nav"));
 header($("header"));
 backToTop($(".back-to-top"));
+summary($("section[data-section='summary-contact']"));
 document.querySelector('.year').innerHTML = new Date().getFullYear();

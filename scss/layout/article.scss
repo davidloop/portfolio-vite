@@ -23,8 +23,9 @@ article {
     }
 
     section[data-section=summary-contact] {
+        display: grid;
         grid-column: 1 / span 5;
-        height: 500px;
+        grid-template-columns: 1fr 970px 1fr;
         background: var(--color-summary);
     }
 }
