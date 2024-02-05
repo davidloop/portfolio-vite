@@ -14,7 +14,7 @@
         },
         {
             "nav_title": "Resume",
-            "nav_url": "/resume/"
+            "nav_url": "https://www.davidloop.com/resume/"
         }
     ],
     "header": [
@@ -249,6 +249,11 @@
                     "summary_text_2": "By consistently pursuing industry knowledge, refining my skill sets, and expanding my experience and adaptability, I am able to deliver high-quality and efficiently executed work across a wide range of business domains."
                 }
             ]
+        }
+    ],
+    "contact": [
+        {
+            "contact_title": "Contact"
         }
     ]
 }

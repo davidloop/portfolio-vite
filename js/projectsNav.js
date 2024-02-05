@@ -13,7 +13,7 @@ export function projectsNav(element) {
                 $.each(name, function(i, items) {
                     $.each(items, function(j, item) {
                         let tabTitle = item.project_title.toLowerCase().replace(/ /g, '');
-                        ul.push('<li><a href=' + '#' + tabTitle + '>' + item.project_title + '</a></li>');
+                        ul.push('<li><a tabindex="0" href=' + '#' + tabTitle + '>' + item.project_title + '</a></li>');
                     });
                 });
             });
@@ -27,7 +27,7 @@ export function projectsNav(element) {
                 $.each(name, function(i, items) {
                     $.each(items, function(j, item) {
                         let tabTitle = item.project_title.toLowerCase().replace(/ /g, '');
-                        ul.push('<li><a href=' + '#' + tabTitle + '>' + item.project_title + '</a></li>');
+                        ul.push('<li><a tabindex="0" href=' + '#' + tabTitle + '>' + item.project_title + '</a></li>');
                     });
                 });
             });

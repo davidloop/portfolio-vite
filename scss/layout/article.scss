@@ -3,7 +3,7 @@ article {
     padding: 40px 0 0 0;
     background: var(--color-default);
     display: grid;
-    grid-template-columns: 1fr 280px 30px 640px 1fr;
+    grid-template-columns: 1fr 280px 30px 660px 1fr;
     position: relative;
     z-index: 2;
 
@@ -25,7 +25,7 @@ article {
     section[data-section=summary-contact] {
         display: grid;
         grid-column: 1 / span 5;
-        grid-template-columns: 1fr 970px 1fr;
+        grid-template-columns: 1fr calc(970px / 2) calc(970px / 2) 1fr;
         background: var(--color-summary);
     }
 }

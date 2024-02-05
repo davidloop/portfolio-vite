@@ -1,17 +1,29 @@
-.summary {
+.summary, .contact {
     grid-column: 2;
-    width: 50%;
+    width: calc(100% - 20px);
     padding: 40px 0 80px 0;
-
-    h4 {
-        padding: 0 0 30px 0;
-        border-bottom: 1px solid rgba(black, 0.15);
-        font-family: var(--font-family-heading);
-        font-size: 30px;
-        font-weight: 300;
-    }
 
     p {
         margin: 30px 0 0 0;
     }
+}
+
+.contact {
+    grid-column: 3;
+    width: calc(100% - 20px);
+    padding: 40px 0 80px 0;
+    justify-self: end;
+
+    .contact--title {
+        padding: 0 0 21px 0;
+    }
+}
+
+.summary--title h4,
+.contact--title h4 {
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid rgba(black, 0.15);
+    font-family: var(--font-family-heading);
+    font-size: 30px;
+    font-weight: 300;
 }

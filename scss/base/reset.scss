@@ -42,3 +42,11 @@ img {
     max-width: 100%;
     display: block;
 }
+
+:focus {
+    outline: none;
+}
+
+:focus-visible {
+    box-shadow: 0 0 2px 2px var(--color-focus);
+}
