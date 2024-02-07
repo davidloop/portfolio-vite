@@ -29,7 +29,7 @@ document.querySelector('main').innerHTML = `
             allow="geolocation; microphone; camera"
             src="https://form.jotform.com/240335912420143"
             frameborder="0"
-            style="min-width:100%;max-width:100%;height:377px;border:none;"
+            style="min-width:100%;max-width:100%;height:387px;border:none;"
             scrolling="no"
           >
           </iframe>

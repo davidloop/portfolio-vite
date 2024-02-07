@@ -66,9 +66,10 @@
                     "rhl": [
                         {
                             "project_title": "Red Lion",
-                            "project_skills": "Drupal, Twig, Handlebars, SCSS, JavaScript, Jquery, Webpack",
+                            "project_skills": "Custom styleguide, Custom form fields, Drupal, Twig, Handlebars, SCSS, JavaScript, Jquery, Webpack",
                             "project_year": "2018",
-                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/rlh-01.png' alt='Red Lion' />"
+                            "project_url": "http://www.davidloop.com/rlh/styleguide.html",
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/rlh-01.png' alt='Red Lion' /><img src='/rlh-02.png' alt='Red Lion' /><img src='/rlh-03.png' alt='Red Lion' />"
                         }
                     ],
                     "american_plant_food": [
