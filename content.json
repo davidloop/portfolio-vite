@@ -2,11 +2,13 @@
     "navigation": [
         {
             "nav_title": "Recent Work",
-            "nav_url": "/"
+            "nav_url": "/",
+            "target": "_self"
         },
         {
             "nav_title": "Past Work",
-            "nav_url": "/past/"
+            "nav_url": "/past/",
+            "target": "_self"
         },
         {
             "nav_title": "Summary & Contact",
@@ -14,25 +16,37 @@
         },
         {
             "nav_title": "Resume",
-            "nav_url": "https://www.davidloop.com/resume/"
+            "nav_url": "https://www.davidloop.com/resume/",
+            "target": "_blank"
         }
     ],
     "header": [
         {
             "text_h1": "David Loop",
-            "text_h2": "UI/UX Frontend Developer & Designer"
+            "text_h2": "UI/UX Front-End Developer &amp; Designer"
         }
     ],
     "projects": [
         {
             "present": [
                 {
+                    "noaa": [
+                        {
+                            "project_title": "NOAA",
+                            "project_skills": "Design, Prototyping, Drupal, Twig, SCSS, JavaScript, Gulp, WordPress, Elementor",
+                            "project_year": "2024-Present",
+                            "project_url": "http://www.cpo.noaa.gov",
+                            "project_url_2": "http://www.climate.gov",
+                            "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/cpo-01.jpg' alt='NOAA Climate Program Office' /><img src='/cpo-02.jpg' alt='NOAA Climate Program Office' /><img src='/climate-01.jpg' alt='NOAA Climate.gov' />"
+                        }
+                    ],
                     "abswavesight": [
                         {
                             "project_title": "ABS Wavesight",
-                            "project_skills": "Drupal, Acquia Site Studio, Twig, SCSS, Jquery, Webpack, Multi Langauge",
+                            "project_skills": "Drupal, Acquia Site Studio, Twig, SCSS, Jquery, Lottie Animation, Webpack, Multi Langauge",
                             "project_year": "2023",
                             "project_url": "http://www.abswavesight.com",
+                            "project_description": "<p>The ABS Wavesight website was a collaborative effort across several agency departments, including Client Services, Design, Motion, Copywriting, and more.</p><p>In my role, I worked closely with the UX and UI teams to translate client needs into actionable solutions. I also supported sprint planning, helped define the level of effort for various tasks, and led all front-end development within Drupal using Acquia's Site Studio.</p><p>Leveraging Site Studio, I built a flexible, custom authoring experience with tools that gave content creators control over layout, spacing, animations, color themes, component variations, and more — all with built-in authoring guidance to streamline the workflow.</p><p>The final website features rich animations, including both custom-scripted transitions and Lottie-based animations for added interactivity and performance</p>",
                             "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/abswavesight-01.jpg' alt='ABS Wavesight' /><img src='/abswavesight-02.jpg' alt='ABS Wavesight' /><img src='/abswavesight-03.jpg' alt='ABS Wavesight' /><img src='/abswavesight-04.jpg' alt='ABS Wavesight' />"
                         }
                     ],
@@ -120,19 +134,19 @@
                             "project_year": "2012",
                             "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/xbox-01.png' alt='Xbox Windows Experience' /><img src='/xbox-02.png' alt='Xbox Windows Experience' /><img src='/xbox-03.png' alt='Xbox Windows Experience' /><img src='/xbox-04.png' alt='Xbox Windows Experience' /><img src='/xbox-05.png' alt='Xbox Windows Experience' /><img src='/xbox-06.png' alt='Xbox Windows Experience' /><img src='/xbox-07.png' alt='Xbox Windows Experience' />"
                         }
-                    ],
-                    "memorial": [
+                    ]
+                }
+            ],
+            "past": [
+                {
+                    "memorialhermannhospital": [
                         {
                             "project_title": "Memorial Hermann Hospital",
                             "project_skills": "Concept, Wireframing, Design, HTML, CSS, Jquery",
                             "project_year": "2012",
                             "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/mem-01.png' alt='Memorial Hermann Hospital' /><img src='/mem-02.png' alt='Memorial Hermann Hospital' /><img src='/mem-03.png' alt='Memorial Hermann Hospital' /><img src='/mem-04.png' alt='Memorial Hermann Hospital' />"
                         }
-                    ]
-                }
-            ],
-            "past": [
-                {
+                    ],
                     "valerus": [
                         {
                             "project_title": "Valerus",
@@ -244,7 +258,7 @@
             "summary_title": "Summary",
             "summary_text": [
                 {
-                    "summary_text_1": "I am a professional, dedicated, and well-versed frontend developer, designer and problem solver. I have comprehensive experience that spans a wide spectrum of development and design principles, technologies and practices. A flexible team player with a collaborative and creative approach to systematic problem solving. With a primary objective to create innovative and bullet-proof user experiences that captivate and engage audiences."
+                    "summary_text_1": "I am a professional, dedicated, and well-versed front-end designer, developer, and problem solver. I have comprehensive experience that spans a wide spectrum of development and design principles, technologies and practices. A flexible team player with a collaborative and creative approach to systematic problem solving. With a primary objective to create innovative and bullet-proof user experiences that captivate and engage audiences."
                 },
                 {
                     "summary_text_2": "By consistently pursuing industry knowledge, refining my skill sets, and expanding my experience and adaptability, I am able to deliver high-quality and efficiently executed work across a wide range of business domains."

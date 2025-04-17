@@ -1,4 +1,3 @@
-import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import inject from "@rollup/plugin-inject";
 import { htmlInjectionPlugin } from "vite-plugin-html-injection";
@@ -23,7 +22,7 @@ export default defineConfig({
                     name: "Footer",
                     path: "./includes/footer.html",
                     type: "raw",
-                    injectTo: "body",
+                    injectTo: "body"
                 }
             ]
         })

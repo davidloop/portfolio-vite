@@ -9,7 +9,7 @@ export function backToTop(element) {
         }
     });
   
-    $(element).on('click', function(e) {
+    $(element).on('click', (e) => {
         e.preventDefault();
         $("html, body").animate({
             scrollTop: $("[id=top]").offset().top
