@@ -28,5 +28,22 @@ export function projectsNav(element) {
         });
     });
 
-    $(element).html(`<h3 data-aos="fade-in" data-aos-delat="500">${heading}</h3><ul>${ul.join("")}</ul>`);
+    const html =`
+        <h3 data-aos="fade-in" data-aos-delay="400">${heading}</h3>
+        <ul>${ul.join("")}</ul>
+    `;
+
+    $(element).html(html);
+
+    let windowWidth = window.innerWidth;
+    const $trigger = $("aside h3");
+
+    if ($trigger.hasClass('mobile') && windowWidth >= 991) {
+        $trigger.removeClass('mobile');
+    } else {
+        $trigger.addClass('mobile');
+        $trigger.off('click').on('click', (e) => {
+            $(e.currentTarget).toggleClass('open').next("ul").stop(true, true).slideToggle('fast');
+        });
+    }
 }

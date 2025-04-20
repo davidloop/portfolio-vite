@@ -17,6 +17,8 @@ document.querySelector('main').innerHTML = `
       <aside></aside>
     </section>
     <section data-section="proj-display"></section>
+  </article>
+  <article>
     <section data-section="summary-contact">
       <div class="summary"></div>
       <div class="contact"></div>
@@ -33,3 +35,16 @@ backToTop($(".back-to-top"));
 summary($(".summary"));
 contact($(".contact"));
 document.querySelector('.year').innerHTML = new Date().getFullYear();
+
+// Needs to happen bcuz 'time'
+let previousWidth = $(window).width();
+
+$(window).on('resize', ()=>  {
+  const currentWidth = $(window).width();
+
+  if (previousWidth < 992 && currentWidth >= 992 || previousWidth > 991 && currentWidth <= 991) {
+    location.reload();
+  }
+
+  previousWidth = currentWidth;
+});

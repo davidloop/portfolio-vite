@@ -7,7 +7,7 @@ export function animations(element) {
             anchorPlacement: 'top-center',
             easing: 'ease-out-cubic',
             once: true,
-            disable: 'mobile'
+            disable: window.innerWidth < 992,
         });
-    })(jQuery, AOS); 
+    })(jQuery, AOS);
 }

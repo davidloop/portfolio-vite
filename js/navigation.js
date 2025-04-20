@@ -20,12 +20,37 @@ export function navigation(element) {
         return li;
     });
 
-    $(element).html(`<ul data-aos="fade-in">${ul.join('')}</ul>`);
+    const html = `
+        <ul data-aos="fade-in">
+            ${ul.join('')}
+        </ul>
+        <a href="#" class="trigger-mobile-menu" title="Mobile Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    `;
+
+    $(element).html(html);
 
     $("a.summarycontact").on('click', (e) => {
         e.preventDefault();
+
         $("html, body").animate({
-            scrollTop: $("section[data-section='summary-contact']").offset().top - 80
+            scrollTop: $("article:last-of-type").offset().top - 80
         }, 200);
-    });    
+
+        $("a.trigger-mobile-menu").hasClass("open") && (
+            $("nav ul").slideUp("fast"), $("a.trigger-mobile-menu").removeClass("open")
+        );
+    });
+
+    $("a.trigger-mobile-menu").on('click', (e) => {
+        e.preventDefault();
+        
+        const $trigger = $(e.currentTarget);
+
+        $trigger.toggleClass('open');
+        $("nav ul").stop(true, true).slideToggle('fast');
+    });
 }

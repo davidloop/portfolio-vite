@@ -2,8 +2,10 @@ import json from '/content.json';
 let projects = json.projects;
 
 export function projectsDisplay(element) {
+    let windowWidth = window.innerWidth;
     const triggerSelector = "aside ul li a";
     const targetSection = $("section[data-section='proj-display']");
+    const heading = $(triggerSelector).parents("aside").find("h3");
 
     function setupToggleDescription(triggerSelector, contentSelector) {
         $(triggerSelector + " > a").on('click', function (e) {
@@ -15,7 +17,7 @@ export function projectsDisplay(element) {
             const isOpen = $clicked.hasClass('open');
 
             $clicked.toggleClass('open', !isOpen).attr('aria-expanded', !isOpen);
-            $content.slideToggle('fast');
+            $content.stop(true, true).slideToggle('fast');
         });
     }
 
@@ -62,6 +64,7 @@ export function projectsDisplay(element) {
 
     function handleProjectClick(item) {
         const html = renderProject(item);
+
         $(targetSection).html(html);
         setupImages();
         setupToggleDescription('.meta--description-trigger', '.meta--description-target');
@@ -70,18 +73,19 @@ export function projectsDisplay(element) {
     $(triggerSelector).on('click', (e) => {
         e.preventDefault();
 
-        $("html, body").animate({
-            scrollTop: $("section").offset().top - 80
-        }, 200);
+        if ($(heading).hasClass("mobile") && windowWidth <= 992) {
+            $(heading).removeClass("open").next("ul").stop(true, true).slideToggle('fast');
+        }
 
-        const $target = $(e.target);
+        const $target = $(e.currentTarget);
         const isActive = $target.hasClass('active');
         $(triggerSelector).removeClass('active');
-        $target.toggleClass('active', !isActive);
+        $target.addClass('active', !isActive);
 
         const href = $target.attr('href');
         const targetID = href?.replace(/[# ]/g, '');
         const pathname = window.location.pathname;
+        const $section = $("article:first-of-type");
 
         projects.forEach(project => {
             const path = pathname === "/" ? project.present : pathname === "/past/" ? project.past : null;
@@ -99,6 +103,12 @@ export function projectsDisplay(element) {
                 }
             }
         });
+
+        setTimeout( () => {
+            $("html, body").animate({
+                scrollTop: $section.offset().top - 40
+            }, 200);
+        }, 200);
     });
 
     function runFirstTab(firstTab) {

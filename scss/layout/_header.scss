@@ -1,13 +1,15 @@
 header {
-    height: 310px;
+    aspect-ratio: 16/9;
+    max-height: 310px;
+    min-height: 210px;
     width: 100%;
-    padding: 60px 0 0 0;
+    padding: 60px 15px 0 15px;
     background: linear-gradient(
         45deg, 
         rgb(20, 0, 0) 0%, 
         rgb(190, 73, 226) 100%);
     display: grid;
-    grid-template-columns: 1fr 970px 1fr;
+    grid-template-columns: 1fr minmax(0, 970px) 1fr;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,7 +23,7 @@ header {
 
     h1 {
         font-family: var(--font-family-heading);
-        font-size: clamp(1.25rem, -0.8423rem + 10.4615vw, 5.5rem);
+        font-size: clamp(1.25rem, -0.8423rem + 10.4615vw, 5.75rem);
         font-weight: 500;
         align-self: end;
     }
@@ -31,4 +33,31 @@ header {
         font-weight: 200;
         letter-spacing: 3px;
     }
-}
+
+    &.scrolled {
+        background: var(--color-summary);
+
+        h1, h2 {
+            color: var(--color-summary);
+        }
+    }
+
+    &::after {
+        content: "";
+        height: 310px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    @media (max-width: 991px) {
+        text-align: center;
+    }
+
+    @media (max-width: 767px) {
+        padding: 40px 15px 0 15px;
+        position: relative;
+    }
+ }

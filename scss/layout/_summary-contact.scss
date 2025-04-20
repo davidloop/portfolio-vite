@@ -1,21 +1,32 @@
 .summary, .contact {
     grid-column: 2;
     width: calc(100% - 20px);
-    padding: 40px 0 80px 0;
+    padding: 40px 0;
 
     p {
         margin: 30px 0 0 0;
+    }
+
+    @media (max-width: 991px) {
+        width: 100%;
+        padding: 15px 0;
+
+        p {
+            margin: 15px 0 0 0;
+        }
     }
 }
 
 .contact {
     grid-column: 3;
-    width: calc(100% - 20px);
-    padding: 40px 0 80px 0;
     justify-self: end;
 
     .contact--title {
         padding: 0 0 24px 0;
+
+        @media (max-width: 991px) {
+            padding: 0 0 15px 0;
+        }
     }
 }
 
@@ -26,4 +37,8 @@
     font-family: var(--font-family-heading);
     font-size: 30px;
     font-weight: 300;
+
+    @media (max-width: 991px) {
+        padding: 0 0 15px 0;
+    }
 }

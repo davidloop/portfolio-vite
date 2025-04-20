@@ -50,3 +50,12 @@ img {
 :focus-visible {
     box-shadow: 0 0 0 1px var(--color-focus);
 }
+
+
+@media (max-width: 991px) {
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}

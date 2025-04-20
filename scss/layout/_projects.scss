@@ -11,6 +11,7 @@ h4 {
 
     .meta--title-skills-year {
         min-width: 75%;
+        flex: 0 0 75%;
         padding-right: 15px;
 
         p {
@@ -36,7 +37,7 @@ h4 {
     .meta--description-trigger {
         max-width: 25%;
         flex: 0 0 25%;
-        padding-top: 6px;
+        padding: 6px 0 0 0;
         display: flex;
         justify-content: flex-end;
 
@@ -60,6 +61,10 @@ h4 {
                 svg {
                     fill: white;
                 }
+
+                @media (max-width: 767px) {
+                    top: 16px;
+                }
             }
 
             &::before {
@@ -76,15 +81,37 @@ h4 {
                 transition: transform 0.2s ease-out;
             }
 
-            &:hover::before, &.open::before {
+            &:hover::before,
+            &.open::before {
                 transform: scaleX(1);
             }
 
-            &:hover, &.open {
+            &:hover,
+            &.open {
                 background: rgba(155, 89, 182, 0.5);
 
                 img {
                     transform: rotate(0deg);
+                }
+            }
+
+            @media (max-width: 991px) {
+
+                &:hover {
+                    background: var(--color-heading);
+                    text-decoration: none;
+
+                    img {
+                        transform: rotate(-180deg);
+                    }
+                }
+
+                &.open:hover {
+                    background: rgba(155, 89, 182, 0.5);
+
+                    img {
+                        transform: rotate(0deg);
+                    }
                 }
             }
         }
@@ -103,7 +130,22 @@ h4 {
             }
         }
     }
-}
+
+    @media (max-width: 767px) {
+        display: block;
+
+        .meta--title-skills-year,
+        .meta--description-trigger {
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+
+        .meta--description-trigger {
+            padding: 15px 0 5px 0;
+            display: block;
+        }
+    }
+} 
 
 .meta--description-target {
     margin: 20px 0 0 0;
@@ -149,6 +191,10 @@ h4 {
             top: 60px;
             left: 50%;
             transform: translateY(-50%);
+        }
+
+        @media (max-width: 991px) {
+            margin-top: 15px;
         }
     }
 }

@@ -12,7 +12,7 @@ export function contact(element) {
             allow="geolocation; microphone; camera; fullscreen"
             src="https://form.jotform.com/250690445873060"
             frameborder="0"
-            style="min-width:100%;max-width:100%;height:390px;background:transparent;border:none;"
+            style="min-width:100%;max-width:100%;height:350px;background:transparent;border:none;"
             scrolling="no"
         >
         </iframe>
