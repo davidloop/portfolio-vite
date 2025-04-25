@@ -21,7 +21,7 @@ export function projectsDisplay(element) {
         });
     }
 
-    function setupImages() {
+    function setupImages() {    
         const $images = $(".proj-display--images img");
         $images.filter(".loader").delay(1000).fadeTo(300, 0);
         $images.not(".loader").delay(1000).fadeTo(300, 1);
@@ -87,6 +87,12 @@ export function projectsDisplay(element) {
         const pathname = window.location.pathname;
         const $section = $("article:first-of-type");
 
+        setTimeout( () => {
+            $("html, body").animate({
+                scrollTop: $section.offset().top - 40
+            }, 200);
+        }, 500);
+
         projects.forEach(project => {
             const path = pathname === "/" ? project.present : pathname === "/past/" ? project.past : null;
             if (!path) return;
@@ -103,12 +109,6 @@ export function projectsDisplay(element) {
                 }
             }
         });
-
-        setTimeout( () => {
-            $("html, body").animate({
-                scrollTop: $section.offset().top - 40
-            }, 200);
-        }, 200);
     });
 
     function runFirstTab(firstTab) {

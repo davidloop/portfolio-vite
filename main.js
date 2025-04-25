@@ -11,7 +11,7 @@ import { summary } from './js/summary.js';
 import { contact } from './js/contact.js';
 
 document.querySelector('main').innerHTML = `
-  <header data-aos="fade-in" data-aos-delay="400"></header>
+  <header></header>
   <article>
     <section data-section="proj-nav">
       <aside></aside>
