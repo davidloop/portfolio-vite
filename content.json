@@ -56,6 +56,7 @@
                             "project_skills": "Drupal, Twig, React, SCSS, JavaScript, Jquery, Webpack, Multi Langauge",
                             "project_year": "2023",
                             "project_url": "http://www.kbr.com",
+                            "project_description": "<p>This was my second time contributing to a full redesign of the KBR website. In this project, I played a key role in bridging client needs with both design and development execution. As the lead front-end Drupal developer, I also contributed to UX and UI decisions as the site moved through later stages of development.</p> <p>Notable features include a custom homepage hero banner supporting flexible layouts, media types, and text animations. At the client’s request, I developed a custom bookmarking feature that allows users to add or remove content items through a right-hand slide-out sidebar. This functionality was built using React and integrated into a fully custom JavaScript sidebar menu component.</p>",
                             "images": "<img src='/89.gif' alt='Loading...' class='loader' /><img src='/kbr-01.jpg' alt='KBR' /><img src='/kbr-02.jpg' alt='KBR' /><img src='/kbr-03.jpg' alt='KBR' /><img src='/kbr-04.jpg' alt='KBR' /><img src='/kbr-05.png' alt='KBR' />"
                         }
                     ],
