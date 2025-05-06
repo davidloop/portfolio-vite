@@ -1,0 +1,135 @@
+{
+  "heading": "Past Work",
+  "projects": [
+    {
+      "memorialhermannhospital": [
+        {
+          "project_title": "Memorial Hermann Hospital",
+          "project_skills": "Concept, Wireframing, Design, HTML, CSS, Jquery",
+          "project_year": "2012",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/memorialhermannhospital/mem-01.png' alt='Memorial Hermann Hospital' /><img src='/images/projects/memorialhermannhospital/mem-02.png' alt='Memorial Hermann Hospital' /><img src='/images/projects/memorialhermannhospital/mem-03.png' alt='Memorial Hermann Hospital' /><img src='/images/projects/memorialhermannhospital/mem-04.png' alt='Memorial Hermann Hospital' />"
+        }
+      ]
+    },
+    {
+      "valerus": [
+        {
+          "project_title": "Valerus",
+          "project_skills": "Concept, Wireframing, Design, WordPress, PHP, HTML, CSS, Jquery",
+          "project_year": "2012",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/valerus/val-01.png' alt='Valerus' /><img src='/images/projects/valerus/val-02.png' alt='Valerus' /><img src='/images/projects/valerus/val-03.png' alt='Valerus' /><img src='/images/projects/valerus/val-04.png' alt='Valerus' /><img src='/images/projects/valerus/val-05.png' alt='Valerus' />"
+        }
+      ]
+    },
+    {
+      "alert": [
+        {
+          "project_title": "Alert Logic",
+          "project_skills": "Concept, Wireframing, Design, WordPress, PHP, HTML, CSS, Jquery",
+          "project_year": "2011",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/alert/alertlogic-01.png' alt='Alert Logic' /><img src='/images/projects/alert/alertlogic-02.png' alt='Alert Logic' /><img src='/images/projects/alert/alertlogic-03.png' alt='Alert Logic' />"
+        }
+      ]
+    },
+    {
+      "hptouchsmartcommunity": [
+        {
+          "project_title": "HP TouchSmart Community",
+          "project_skills": "Concept, Wireframing, Design",
+          "project_year": "2010",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/hptouchsmartcommunity/hpecosystem-01.png' alt='HP TouchSmart Community' /><img src='/images/projects/hptouchsmartcommunity/hpecosystem-02.png' alt='HP TouchSmart Community' /><img src='/images/projects/hptouchsmartcommunity/hpecosystem-03.png' alt='HP TouchSmart Community' />"
+        }
+      ]
+    },
+    {
+      "tattu": [
+        {
+          "project_title": "Tattu Denim",
+          "project_skills": "Concept, Wireframing, Design",
+          "project_year": "2010",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/tattu/tattu-01.png' alt='Tattu Denim' /><img src='/images/projects/tattu/tattu-02.png' alt='Tattu Denim' />"
+        }
+      ]
+    },
+    {
+      "dog": [
+        {
+          "project_title": "Dog The Bounty Hunter",
+          "project_skills": "Concept, Wireframing, Design",
+          "project_year": "2010",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/dog/dog-01.png' alt='Dog The Bounty Hunter' /><img src='/images/projects/dog/dog-02.png' alt='Dog The Bounty Hunter' />"
+        }
+      ]
+    },
+    {
+      "jiffy": [
+        {
+          "project_title": "Jiffy Lube Touch Screens",
+          "project_skills": "Concept, Wireframing, Design",
+          "project_year": "2010",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/jiffy/jiffy-01.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/images/projects/jiffy/jiffy-02.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/images/projects/jiffy/jiffy-03.png' alt='Jiffy Lube Consumer Touch Screens' /><img src='/images/projects/jiffy/jiffy-04.png' alt='Jiffy Lube Consumer Touch Screens' />"
+        }
+      ]
+    },
+    {
+      "joes": [
+        {
+          "project_title": "Joe's Crabshack",
+          "project_skills": "Concept, Wireframing, Design, PHP, HTML, CSS",
+          "project_year": "2009",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/joes/joes-01.png' alt='Joe's Crabshack' /><img src='/images/projects/joes/joes-02.png' alt='Joe's Crabshack' /><img src='/images/projects/joes/joes-03.png' alt='Joe's Crabshack' />"
+        }
+      ]
+    },
+    {
+      "mahindra": [
+        {
+          "project_title": "Mahindra Racing",
+          "project_skills": "Concept, Wireframing, Design, PHP, HTML, CSS, Jquery, Flash",
+          "project_year": "2009",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/mahindra/mah-01.png' alt='Mahindra Racing' /><img src='/images/projects/mahindra/mah-02.png' alt='Mahindra Racing' /><img src='/images/projects/mahindra/mah-03.png' alt='Mahindra Racing' /><img src='/images/projects/mahindra/mah-04.png' alt='Mahindra Racing' />"
+        }
+      ]
+    },
+    {
+      "scion": [
+        {
+          "project_title": "Scion Events",
+          "project_skills": "Concept, Design, HTML, CSS",
+          "project_year": "2008",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/scion/scion-01.png' alt='Scion Events' /><img src='/images/projects/scion/scion-02.png' alt='Scion Events' /><img src='/images/projects/scion/scion-03.png' alt='Scion Events' />"
+        }
+      ]
+    },
+    {
+      "misterart": [
+        {
+          "project_title": "MisterArt (Texas Art Supply)",
+          "project_skills": "Graphic &amp; Print Design, Concept, Wireframing, HTML, CSS, JavaScript",
+          "project_year": "2007",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/misterart/art-01.png' alt='MisterArt (Texas Art Supply)' /><img src='/images/projects/misterart/art-02.png' alt='MisterArt (Texas Art Supply)' /><img src='/images/projects/misterart/art-03.png' alt='MisterArt (Texas Art Supply)' /><img src='/images/projects/misterart/art-04.png' alt='MisterArt (Texas Art Supply)' />"
+        }
+      ]
+    },
+    {
+      "driskill": [
+        {
+          "project_title": "The Driskill Hotel",
+          "project_skills": "Concept, Design, HTML, CSS",
+          "project_year": "2006",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/driskill/driskill-01.png' alt='The Driskill Hotel' /><img src='/images/projects/driskill/driskill-02.png' alt='The Driskill Hotel' />"
+        }
+      ]
+    },
+    {
+      "print": [
+        {
+          "project_title": "Various Print",
+          "project_skills": "Catalogs, brochures, postcards, flyers, business cards, etc.",
+          "project_year": "2004 - Present",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/print/print-01.png' alt='Various Print' /><img src='/images/projects/print/print-02.png' alt='Various Print' /><img src='/images/projects/print/print-03.png' alt='Various Print' /><img src='/images/projects/print/print-04.png' alt='Various Print' />"
+        }
+      ]
+    }
+  ]
+}

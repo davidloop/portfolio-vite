@@ -1,0 +1,21 @@
+[
+  {
+    "nav_title": "Recent Work",
+    "nav_url": "/",
+    "target": "_self"
+  },
+  {
+    "nav_title": "Past Work",
+    "nav_url": "/past/",
+    "target": "_self"
+  },
+  {
+    "nav_title": "Summary & Contact",
+    "nav_url": "#summary-contact"
+  },
+  {
+    "nav_title": "Resume",
+    "nav_url": "https://www.davidloop.com/resume/",
+    "target": "_blank"
+  }
+]

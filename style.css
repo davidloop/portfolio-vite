@@ -235,7 +235,7 @@ a.trigger-mobile-menu.open span:nth-of-type(3) {
     content: "";
     height: 40px;
     width: 40px;
-    background: url(/icon-angle-up.svg) no-repeat;
+    background: url(/images/icons/icon-angle-up.svg) no-repeat;
     background-size: 30% auto;
     background-position: center;
     position: absolute;

@@ -1,0 +1,135 @@
+{
+  "heading": "Recent Work",
+  "projects": [
+    {
+      "noaa": [
+        {
+          "project_title": "NOAA",
+          "project_skills": "Design, Prototyping, Drupal, Twig, SCSS, JavaScript, Gulp, WordPress, Elementor",
+          "project_year": "2024-Present",
+          "project_url": "http://www.cpo.noaa.gov",
+          "project_url_2": "http://www.climate.gov",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/noaa/cpo-01.jpg' alt='NOAA Climate Program Office' /><img src='/images/projects/noaa/cpo-02.jpg' alt='NOAA Climate Program Office' /><img src='/images/projects/noaa/climate-01.jpg' alt='NOAA Climate.gov' />"
+        }
+      ]
+    },
+    {
+      "abswavesight": [
+        {
+          "project_title": "ABS Wavesight",
+          "project_skills": "Drupal, Acquia Site Studio, Twig, SCSS, Jquery, Lottie Animation, Webpack, Multi Langauge",
+          "project_year": "2023",
+          "project_url": "http://www.abswavesight.com",
+          "project_description": "<p>The ABS Wavesight website was a collaborative effort across several agency departments, including Client Services, Design, Motion, Copywriting, and more.</p><p>In my role, I worked closely with the UX and UI teams to translate client needs into actionable solutions. I also supported sprint planning, helped define the level of effort for various tasks, and led all front-end development within Drupal using Acquia's Site Studio.</p><p>Leveraging Site Studio, I built a flexible, custom authoring experience with tools that gave content creators control over layout, spacing, animations, color themes, component variations, and more — all with built-in authoring guidance to streamline the workflow.</p><p>The final website features rich animations, including both custom-scripted transitions and Lottie-based animations for added interactivity and performance.</p>",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/abswavesight/abswavesight-01.jpg' alt='ABS Wavesight' /><img src='/images/projects/abswavesight/abswavesight-02.jpg' alt='ABS Wavesight' /><img src='/images/projects/abswavesight/abswavesight-03.jpg' alt='ABS Wavesight' /><img src='/images/projects/abswavesight/abswavesight-04.jpg' alt='ABS Wavesight' />"
+        }
+      ]
+    },
+    {
+      "kbr": [
+        {
+          "project_title": "KBR",
+          "project_skills": "Drupal, Twig, React, SCSS, JavaScript, Jquery, Webpack, Multi Langauge",
+          "project_year": "2023",
+          "project_url": "http://www.kbr.com",
+          "project_description": "<p>This was my second time contributing to a full redesign of the KBR website. In this project, I played a key role in bridging client needs with both design and development execution. As the lead front-end Drupal developer, I also contributed to UX and UI decisions as the site moved through later stages of development.</p> <p>Notable features include a custom homepage hero banner supporting flexible layouts, media types, and text animations. At the client's request, I developed a custom bookmarking feature that allows users to add or remove content items through a right-hand slide-out sidebar. This functionality was built using React and integrated into a fully custom JavaScript sidebar menu component.</p>",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/kbr/kbr-01.jpg' alt='KBR' /><img src='/images/projects/kbr/kbr-02.jpg' alt='KBR' /><img src='/images/projects/kbr/kbr-03.jpg' alt='KBR' /><img src='/images/projects/kbr/kbr-04.jpg' alt='KBR' /><img src='/images/projects/kbr/kbr-05.png' alt='KBR' />"
+        }
+      ]
+    },
+    {
+      "cpchem": [
+        {
+          "project_title": "Chevron Phillips Chemical",
+          "project_skills": "Drupal, Twig, SCSS, JavaScript, Jquery, Webpack",
+          "project_year": "2020",
+          "project_url": "http://www.cpchem.com",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/cpchem/cpchem-01.png' alt='Chevron Phillips Chemical' /><img src='/images/projects/cpchem/cpchem-05.png' alt='Chevron Phillips Chemical' /><img src='/images/projects/cpchem/cpchem-02.png' alt='Chevron Phillips Chemical' /><img src='/images/projects/cpchem/cpchem-03.png' alt='Chevron Phillips Chemical' /><img src='/images/projects/cpchem/cpchem-04.png' alt='Chevron Phillips Chemical' />"
+        }
+      ]
+    },
+    {
+      "loomis": [
+        {
+          "project_title": "Loomis",
+          "project_skills": "Drupal, Twig, Bootstrap, SCSS, JavaScript, Jquery, Webpack",
+          "project_year": "2020",
+          "project_url": "http://www.loomis.us",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/loomis/loomis-01.png' alt='Loomis' /><img src='/images/projects/loomis/loomis-02.png' alt='Loomis' /><img src='/images/projects/loomis/loomis-03.png' alt='Loomis' /><img src='/images/projects/loomis/loomis-04.png' alt='Loomis' /><img src='/images/projects/loomis/loomis-05.png' alt='Loomis' />"
+        }
+      ]
+    },
+    {
+      "rhl": [
+        {
+          "project_title": "Red Lion",
+          "project_skills": "Custom styleguide, Custom form fields, Drupal, Twig, Handlebars, SCSS, JavaScript, Jquery, Webpack",
+          "project_year": "2018",
+          "project_url": "http://www.davidloop.com/rlh/styleguide.html",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/rlh/rlh-01.png' alt='Red Lion' /><img src='/images/projects/rlh/rlh-02.png' alt='Red Lion' /><img src='/images/projects/rlh/rlh-03.png' alt='Red Lion' />"
+        }
+      ]
+    },
+    {
+      "american_plant_food": [
+        {
+          "project_title": "American Plant Food",
+          "project_skills": "Design, WordPress, PHP, HTML, Bootstrap, SCSS, Jquery, Gulp",
+          "project_year": "2018",
+          "project_url": "https://americanplantfood.com",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/apf/apf-01.png' alt='American Plant Food' /><img src='/images/projects/apf/apf-02.png' alt='American Plant Food' /><img src='/images/projects/apf/apf-03.png' alt='American Plant Food' /><img src='/images/projects/apf/apf-04.png' alt='American Plant Food' /><img src='/images/projects/apf/apf-05.png' alt='American Plant Food' />"
+        }
+      ]
+    },
+    {
+      "adcetera_2015": [
+        {
+          "project_title": "Adcetera 2015",
+          "project_skills": "Design, WordPress, PHP, HTML, Bootstrap, LESS, Jquery",
+          "project_year": "2015",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/adc2015/adc2015-01.png' alt='Adcetera 2015' /><img src='/images/projects/adc2015/adc2015-02.png' alt='Adcetera 2015' /><img src='/images/projects/adc2015/adc2015-03.png' alt='Adcetera 2015' /><img src='/images/projects/adc2015/adc2015-04.png' alt='Adcetera 2015' /><img src='/images/projects/adc2015/adc2015-05.png' alt='Adcetera 2015' />"
+        }
+      ]
+    },
+    {
+      "mbci": [
+        {
+          "project_title": "MBCI",
+          "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, JavaScript, Jquery",
+          "project_year": "2014",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/mbci/mbci-01.png' alt='MBCI' /><img src='/images/projects/mbci/mbci-02.png' alt='MBCI' /><img src='/images/projects/mbci/mbci-03.png' alt='MBCI' /><img src='/images/projects/mbci/mbci-04.png' alt='MBCI' /><img src='/images/projects/mbci/mbci-05.png' alt='MBCI' /><img src='/images/projects/mbci/mbci-06.png' alt='MBCI' /><img src='/images/projects/mbci/mbci-07.png' alt='MBCI' />"
+        }
+      ]
+    },
+    {
+      "metal_depots": [
+        {
+          "project_title": "Metal Depots",
+          "project_skills": "Wireframing, Design, Ektron, HTML, Bootstrap, LESS, JavaScript, Jquery",
+          "project_year": "2014",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/metaldepots/metaldepots-01.png' alt='Metal Depots' /><img src='/images/projects/metaldepots/metaldepots-02.png' alt='Metal Depots' /><img src='/images/projects/metaldepots/metaldepots-03.png' alt='Metal Depots' /><img src='/images/projects/metaldepots/metaldepots-04.png' alt='Metal Depots' /><img src='/images/projects/metaldepots/metaldepots-05.png' alt='Metal Depots' /><img src='/images/projects/metaldepots/metaldepots-06.png' alt='Metal Depots' /><img src='/images/projects/metaldepots/metaldepots-07.png' alt='Metal Depots' />"
+        }
+      ]
+    },
+    {
+      "tmobile": [
+        {
+          "project_title": "T-Mobile",
+          "project_skills": "Concept, Design, Prototyping, HTML, SCSS, JavaScript, Jquery",
+          "project_year": "2013",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/tmobile/tmo-01.png' alt='T-Mobile' /><img src='/images/projects/tmobile/tmo-02.png' alt='T-Mobile' /><img src='/images/projects/tmobile/tmo-03.png' alt='T-Mobile' /><img src='/images/projects/tmobile/tmo-04.png' alt='T-Mobile' /><img src='/images/projects/tmobile/tmo-05.png' alt='T-Mobile' />"
+        }
+      ]
+    },
+    {
+      "microsoft": [
+        {
+          "project_title": "Xbox Windows Experience",
+          "project_skills": "HTML, YAML, LESS, JavaScript",
+          "project_year": "2012",
+          "images": "<img src='/images/common/loader.gif' alt='Loading...' class='loader' /><img src='/images/projects/microsoft/xbox-01.png' alt='Xbox Windows Experience' /><img src='/images/projects/microsoft/xbox-02.png' alt='Xbox Windows Experience' /><img src='/images/projects/microsoft/xbox-03.png' alt='Xbox Windows Experience' /><img src='/images/projects/microsoft/xbox-04.png' alt='Xbox Windows Experience' /><img src='/images/projects/microsoft/xbox-05.png' alt='Xbox Windows Experience' /><img src='/images/projects/microsoft/xbox-06.png' alt='Xbox Windows Experience' /><img src='/images/projects/microsoft/xbox-07.png' alt='Xbox Windows Experience' />"
+        }
+      ]
+    }
+  ]
+}
