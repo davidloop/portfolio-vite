@@ -43,9 +43,8 @@ const projectMapping = {
   'climate': 'noaa'
 };
 
-// Special case for loader gif
-const loaderGif = '89.gif';
-const newLoaderGif = 'images/common/loader.gif';
+// Special case for loader image
+const loaderGif = 'loader.jpg';
 
 // Special case for icons
 const iconMapping = {
@@ -73,12 +72,13 @@ function copyFile(source, destination) {
 
 // Copy special files
 function copySpecialFiles() {
-  // Copy loader gif
+  // Copy loader gif to common directory while preserving the original
   const loaderSource = path.join(publicDir, loaderGif);
-  const loaderDest = path.join(publicDir, newLoaderGif);
+  const loaderDest = path.join(publicDir, 'images/common/loader.jpg');
   
   if (fs.existsSync(loaderSource)) {
     copyFile(loaderSource, loaderDest);
+    console.log(`Original ${loaderGif} preserved at its location and copied to images/common/loader.jpg`);
   } else {
     console.warn(`Warning: Loader gif not found at ${loaderSource}`);
   }

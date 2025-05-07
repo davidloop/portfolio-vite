@@ -21,11 +21,11 @@ export function projectsDisplay(element) {
         });
     }
 
-    function setupImages() {    
-        const $images = $(".proj-display--images img");
-        $images.filter(".loader").delay(1000).fadeTo(300, 0);
-        $images.not(".loader").delay(1000).fadeTo(300, 1);
-    }
+function setupImages() {    
+    const $images = $(".proj-display--images img");
+    $images.filter(".loader").delay(1000).fadeTo(300, 0);
+    $images.not(".loader").delay(1000).fadeTo(300, 1);
+}
 
     function setupDetails(item) {
         const links = [];

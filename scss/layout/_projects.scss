@@ -191,7 +191,14 @@ h4 {
             position: absolute;
             top: 60px;
             left: 50%;
-            transform: translateY(-50%);
+            transform-origin: center center;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         @media (max-width: 991px) {

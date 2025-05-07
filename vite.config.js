@@ -33,6 +33,9 @@ export default defineConfig({
     assetsInlineLimit: 4096, // 4kb - files smaller than this will be inlined as base64
     chunkSizeWarningLimit: 1000, // Increase warning limit for larger chunks
     
+    // Ensure past directory is copied to dist
+    copyPublicDir: true,
+    
     // Rollup options
     rollupOptions: {
       input: {
