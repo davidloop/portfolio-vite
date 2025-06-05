@@ -12,6 +12,7 @@ node_modules
 dist
 dist-ssr
 migrations
+removed-images
 .temp
 
 # Files
