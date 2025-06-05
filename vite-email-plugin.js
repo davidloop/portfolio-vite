@@ -43,7 +43,6 @@ export function emailPlugin() {
 
             // Log the email to console (development mode)
             console.log('\n========== EMAIL NOTIFICATION ==========');
-            console.log(`To: davidloop@gmail.com`);
             console.log(`Subject: New Contact Form Submission from ${formData.name}`);
             console.log('Form Data:');
             console.log(`- Name: ${formData.name}`);
