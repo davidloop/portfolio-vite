@@ -9,7 +9,7 @@ header {
         rgb(20, 0, 0) 0%, 
         rgb(190, 73, 226) 100%);
     display: grid;
-    grid-template-columns: 1fr minmax(0, 970px) 1fr;
+    grid-template-columns: 1fr minmax(0, 991px) 1fr;
     position: fixed;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@ header {
     }
 
     h2 {
-        font-size: clamp(1.125rem, 0.5712rem + 2.7692vw, 2.25rem);
+        font-size: clamp(1.125rem, 0.5712rem + 2.7692vw, 2rem);
         font-weight: 200;
         letter-spacing: 3px;
     }

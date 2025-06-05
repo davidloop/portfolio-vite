@@ -36,7 +36,7 @@ export function navigation(element) {
         e.preventDefault();
 
         $("html, body").animate({
-            scrollTop: $("article:last-of-type").offset().top - 80
+            scrollTop: $("article:last-of-type").offset().top - 40
         }, 200);
 
         $("a.trigger-mobile-menu").hasClass("open") && (

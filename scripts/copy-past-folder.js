@@ -1,6 +1,7 @@
 /**
- * Script to copy the past folder to the dist directory
- * and fix the paths in the past/index.html file
+ * Script to copy the past folder to the dist directory,
+ * fix the paths in the past/index.html file,
+ * and copy the PHP email files (script and config)
  */
 import fs from 'fs';
 import path from 'path';
@@ -53,6 +54,36 @@ try {
   }
 } catch (error) {
   console.error('Error copying past/index.html:', error);
+}
+
+// Copy PHP email script to dist directory
+try {
+  const phpSourceFile = path.resolve('send-email.php');
+  const phpDestFile = path.resolve('dist/send-email.php');
+  
+  if (fs.existsSync(phpSourceFile)) {
+    fs.copyFileSync(phpSourceFile, phpDestFile);
+    console.log('Successfully copied send-email.php to dist/send-email.php');
+  } else {
+    console.error('Source file send-email.php does not exist');
+  }
+} catch (error) {
+  console.error('Error copying send-email.php:', error);
+}
+
+// Copy PHP config file to dist directory
+try {
+  const configSourceFile = path.resolve('config.php');
+  const configDestFile = path.resolve('dist/config.php');
+  
+  if (fs.existsSync(configSourceFile)) {
+    fs.copyFileSync(configSourceFile, configDestFile);
+    console.log('Successfully copied config.php to dist/config.php');
+  } else {
+    console.warn('Warning: config.php does not exist. Make sure to create it from config.template.php before deploying.');
+  }
+} catch (error) {
+  console.error('Error copying config.php:', error);
 }
 
 /**

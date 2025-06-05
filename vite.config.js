@@ -4,9 +4,9 @@
 import { defineConfig } from 'vite';
 import inject from "@rollup/plugin-inject";
 import { htmlInjectionPlugin } from "vite-plugin-html-injection";
-import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import { createHtmlPlugin } from 'vite-plugin-html';
 import { splitVendorChunkPlugin } from 'vite';
+import { emailPlugin } from './vite-email-plugin.js';
 
 export default defineConfig({
   // Base public path - adjust if deploying to a subdirectory
@@ -144,44 +144,8 @@ export default defineConfig({
       ]
     }),
     
-    // Image optimization
-    ViteImageOptimizer({
-      png: {
-        quality: 80,
-      },
-      jpeg: {
-        quality: 80,
-      },
-      jpg: {
-        quality: 80,
-      },
-      webp: {
-        lossless: true,
-      },
-      avif: {
-        lossless: true,
-      },
-      gif: {
-        optimizationLevel: 3,
-      },
-      svg: {
-        multipass: true,
-        plugins: [
-          {
-            name: 'preset-default',
-            params: {
-              overrides: {
-                removeViewBox: false,
-                cleanupNumericValues: {
-                  floatPrecision: 2,
-                },
-              },
-            },
-          },
-          'removeDimensions',
-        ],
-      },
-    }),
+    // Email plugin for local development
+    emailPlugin(),
     
     // Split vendor chunks
     splitVendorChunkPlugin()

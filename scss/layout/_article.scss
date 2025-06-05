@@ -3,7 +3,7 @@ article:first-of-type {
     padding: 40px 15px 0 15px;
     background: var(--color-default);
     display: grid;
-    grid-template-columns: 1fr 280px 30px 660px 1fr;
+    grid-template-columns: 1fr 280px 30px 681px 1fr;
     position: relative;
     bottom: 0;
     z-index: 3;
@@ -57,7 +57,7 @@ article:last-of-type {
         padding: 0 15px;
         display: grid;
         grid-column: 1 / span 5;
-        grid-template-columns: 1fr calc(970px / 2) calc(970px / 2) 1fr;
+        grid-template-columns: 1fr calc(991px / 2) calc(991px / 2) 1fr;
         background: var(--color-summary);
         position: fixed;
         bottom: 40px;

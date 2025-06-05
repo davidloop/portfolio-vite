@@ -7,9 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Folders
 node_modules
 dist
 dist-ssr
+migrations
+.temp
+
+# Files
+config.js
+config.php
+
+# Documentation
+*.md
+
+# Env
 *.local
 
 # Editor directories and files
@@ -22,7 +34,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Documentation
-README.md
-optimization-plan.md

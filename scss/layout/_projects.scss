@@ -9,6 +9,11 @@ h4 {
     display: flex;
     align-items: flex-start;
 
+    &:not(:has(.meta--description-trigger)) .meta--title-skills-year {
+        min-width: 100%;
+        flex: 1 1 100%;
+    }
+
     .meta--title-skills-year {
         min-width: 75%;
         flex: 0 0 75%;
